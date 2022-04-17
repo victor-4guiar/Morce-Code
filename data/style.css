@@ -1,0 +1,36 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+:root{
+	--color01: #687B8E;
+	--color02: #475E74;
+	--color03: #31475C;
+	--color04: #1E364C;
+	--color05: #0E2338;
+}
+
+body{
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	background-color: var(--color02);
+}
+
+main{
+	background-color: white;
+	max-width: 650px;
+	margin: auto;
+}
+
+td, th{
+	border: 2px solid #181818;
+	padding: 5px;
+}
+
+.code{
+	font-weight: bolder;
+}
+
+table{
+	border-collapse: collapse;
+}
