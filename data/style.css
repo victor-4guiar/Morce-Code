@@ -27,6 +27,12 @@ td, th{
 	padding: 5px;
 }
 
+#am:hover{
+	0% {background-color: white;}
+	50% {background-color: gray;}
+	100% {background-color: black;} modificar1();
+}
+
 .code{
 	font-weight: bolder;
 }
