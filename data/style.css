@@ -17,7 +17,7 @@ body{
 }
 
 main{
-	background-color: white;
+	background-color: var(--color01);
 	max-width: 550px;
 	margin: auto;
 	padding: 15px;
@@ -41,6 +41,8 @@ caption{
 table{
 	border-collapse: collapse;
 	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 td, th{
