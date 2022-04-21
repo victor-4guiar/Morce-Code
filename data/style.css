@@ -4,6 +4,7 @@
 }
 
 :root{
+	--color00: #8A9DAF;
 	--color01: #687B8E;
 	--color02: #475E74;
 	--color03: #31475C;
@@ -16,12 +17,22 @@ body{
 	background-color: var(--color02);
 }
 
+header{
+	background-color: var(--color03);
+	color: var(--color00);
+	padding: 20px;
+	text-align: center;
+	text-shadow: 2px 2px 1px var(--color04);
+	box-shadow: 2px 2px 2px var(--color04);
+}
+
 main{
 	background-color: var(--color01);
 	max-width: 550px;
 	margin: auto;
 	padding: 15px;
-	border-radius: 10px;
+	border-radius: 0px 0px 10px 10px;
+	box-shadow: 2px 2px 2px var(--color03);
 }
 
 .code{
@@ -31,7 +42,7 @@ main{
 caption{
 	font-size: 1.5em;
 	background-color: var(--color03);
-	color: white;
+	color: var(--color00);
 	font-weight: bold;
 	padding: 5px;
 	border-radius: 8px 8px 0px 0px;
