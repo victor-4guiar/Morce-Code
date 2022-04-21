@@ -18,29 +18,55 @@ body{
 
 main{
 	background-color: white;
-	max-width: 650px;
+	max-width: 550px;
 	margin: auto;
-	padding: 10px;
-}
-
-td, th{
-	border: 2px solid #181818;
-	padding: 5px;
-	height: 30px;
-	width: 35px;
-	text-align: center;
-}
-
-#am:hover{
-	0% {background-color: white;}
-	50% {background-color: gray;}
-	100% {background-color: black;} modificar1();
+	padding: 15px;
+	border-radius: 10px;
 }
 
 .code{
 	font-weight: bolder;
 }
 
+caption{
+	font-size: 1.5em;
+	background-color: var(--color03);
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border-radius: 8px 8px 0px 0px;
+	text-shadow: 1px 2px 2px var(--color05);
+}
+
 table{
 	border-collapse: collapse;
+	margin: auto;
+}
+
+td, th{
+	border: 3px solid #181818;
+	padding: 5px;
+	height: 30px;
+	width: 35px;
+	text-align: center;
+	background-color: var(--color04);
+	color: var(--color01);
+	text-shadow: 1px 1px 1px var(--color05);
+}
+
+td:hover{
+	animation-name: blup;
+	animation-duration: 2s;
+}
+
+@keyframes blup{	
+	5%{
+		background-color: var(--color01);
+		padding: 8px;
+		color: white;
+	}
+	
+	10%{
+		padding: 5px;
+	}
 }
