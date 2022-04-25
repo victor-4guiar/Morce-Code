@@ -1,29 +1,30 @@
-function modificar1(){ /* A = .- */
+/* This is the caracter translator of the site. This is not very otimizated for now because i'm a junior xd */
+function modificar1(){ 
 	am = document.getElementById("am");
 	am.innerHTML = "A";
 };
 
-function demodificar1(){ /* A = .- */
+function demodificar1(){ 
 	am = document.getElementById("am");
 	am.innerHTML = ".-";
 };
 
-function modificar2(){ /* B = -... */
+function modificar2(){ 
 	bm = document.getElementById("bm");
 	bm.innerHTML = "B";
 };
 
-function demodificar2(){ /* B = -... */
+function demodificar2(){ 
 	bm = document.getElementById("bm");
 	bm.innerHTML = "-...";
 };
 
-function modificar3(){ /* C = -.-. */
+function modificar3(){ 
 	dm = document.getElementById("cm");
 	dm.innerHTML = " C";
 };
 
-function demodificar3(){ /* C = -.-. */
+function demodificar3(){ 
 	cm = document.getElementById("cm");
 	cm.innerHTML = "-.-.";
 };

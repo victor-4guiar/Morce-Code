@@ -1,9 +1,9 @@
-*{
+*{ /* Global Settings. */
 	margin: 0px;
 	padding: 0px;
 }
 
-:root{
+:root{ /* Palletes. */
 	--color00: #8A9DAF;
 	--color01: #687B8E;
 	--color02: #475E74;
@@ -35,7 +35,7 @@ main{
 	box-shadow: 2px 2px 2px var(--color03);
 }
 
-.code{
+.code{ /* Morce Code Configuration. */
 	font-weight: bolder;
 }
 
@@ -68,11 +68,11 @@ td, th{
 }
 
 td:hover{
-	animation-name: blup;
+	animation-name: blup; /* Call of "blup" animation. */
 	animation-duration: 2s;
 }
 
-@keyframes blup{	
+@keyframes blup{ /* "blup" animation settings. */
 	5%{
 		background-color: var(--color01);
 		padding: 8px;
